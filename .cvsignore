@@ -1,5 +1,6 @@
 ArrayArgs.class
 Props.class
+SunWS_cache
 TestArgs.class
 a.out
 jBreakIterator.class
@@ -9,3 +10,4 @@ jRsh.class
 t
 tPerlSub.class
 tRandomAccessFile.class
+tRemove
