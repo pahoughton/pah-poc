@@ -1,4 +1,4 @@
-#!/bin/bash
+d#!/bin/bash
 dcnt=22 # disk count
 d=0
 fd=a
