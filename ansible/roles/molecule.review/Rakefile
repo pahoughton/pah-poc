@@ -1,0 +1,15 @@
+# 2018-10-14 (cc) <paul4hough@gmail.com>
+#
+$runstart = Time.now
+
+at_exit {
+  runtime = Time.now - $runstart
+  sh 'set -x; sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" < rake.out'
+  puts "run time: #{runtime}"
+}
+
+task :default => [:test,]
+
+task :test do
+  sh "molecule test > rake.out 2>&1"
+end

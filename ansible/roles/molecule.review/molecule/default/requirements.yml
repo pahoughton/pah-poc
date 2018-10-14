@@ -1,0 +1,6 @@
+# 2018-10-14 (cc) <paul4hough@gmail.com>
+#
+---
+# from GitHub, overriding the name and specifying a specific tag
+- src: https://github.com/pahoughton/ansible-influxdb
+  name: influxdb
