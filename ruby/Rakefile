@@ -1,0 +1,5 @@
+# 2018-10-21 (cc) <paul4hough@gmail.com>
+#
+task :test,[:flags,:opts] do |task,args|
+  puts "echo -- f: #{args[:flags]} o: #{args[:opts]}"
+end
